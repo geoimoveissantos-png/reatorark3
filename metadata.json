@@ -1,0 +1,11 @@
+{
+  "name": "REATOR ARK — JARVIS HUD & AI Assistant",
+  "description": "Cross-platform Mark LVI holographic HUD and AI assistant featuring the Arc Reactor core, 3D animated holographic avatar, real-time voice and audio synthesis, memory management, skills & plugins, and mobile remote dashboard.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

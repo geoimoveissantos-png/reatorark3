@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": "usr_romildo_master",
+      "username": "romildo",
+      "email": "geoimoveissantos@gmail.com",
+      "fullName": "Romildo Ribeiro",
+      "passwordHash": "Romildo2009@",
+      "role": "master_admin",
+      "status": "active",
+      "createdAt": "2026-11-06T19:23:04.589Z",
+      "updatedAt": "2026-11-06T19:23:04.590Z"
+    },
+    {
+      "id": "usr_admin_master",
+      "username": "admin",
+      "email": "admin@reatorark.com",
+      "fullName": "Administrador Master",
+      "passwordHash": "Romildo2009@",
+      "role": "master_admin",
+      "status": "active",
+      "createdAt": "2026-11-06T19:23:04.590Z",
+      "updatedAt": "2026-11-06T19:23:04.590Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_1793993000393",
+      "userName": "Carlos Stark",
+      "commandText": "olá jarvis",
+      "responseText": "Olá, senhor Carlos Stark! Espero que esteja tudo bem com você. Todos os sistemas do Reator Ark e Mark 42 estão operando em potência máxima. Em que posso ajudar agora?",
+      "createdAt": "2026-11-06T19:23:20.393Z"
+    },
+    {
+      "id": "conv_1793993004906",
+      "userName": "Carlos Stark",
+      "commandText": "tocar AC/DC Back in Black no YouTube",
+      "responseText": "Localizei o vídeo de AC/DC Back in Black diretamente no YouTube. Transmitindo agora para a tela central do HUD, senhor Carlos Stark.",
+      "toolUsed": "video_player",
+      "createdAt": "2026-11-06T19:23:24.906Z"
+    },
+    {
+      "id": "conv_1793993008100",
+      "userName": "Romildo",
+      "commandText": "quem é você?",
+      "responseText": "Eu sou o JARVIS Mark LVI, a inteligência artificial tática do Reator Ark, servindo ao senhor Romildo. Posso pesquisar e reproduzir qualquer vídeo do YouTube na tela do HUD, fornecer relatórios climáticos, executar diagnósticos avançados, monitorar hardware e responder com minha voz neural.",
+      "createdAt": "2026-11-06T19:23:28.100Z"
+    }
+  ],
+  "logs": [
+    {
+      "id": "log_1793992997153_u5ab",
+      "level": "INFO",
+      "source": "USER_MANAGER",
+      "message": "Novo usuário registrado: carlos_stark (Carlos Stark)",
+      "createdAt": "2026-11-06T19:23:17.153Z"
+    },
+    {
+      "id": "log_1793993012004_umcu",
+      "level": "INFO",
+      "source": "USER_MANAGER",
+      "message": "Usuário atualizado: carlos_stark (admin)",
+      "createdAt": "2026-11-06T19:23:32.004Z"
+    },
+    {
+      "id": "log_1793993014850_mk6b",
+      "level": "WARN",
+      "source": "USER_MANAGER",
+      "message": "Usuário removido: carlos_stark (ID: usr_1793992997152_a1va2)",
+      "createdAt": "2026-11-06T19:23:34.850Z"
+    }
+  ],
+  "updatedAt": "2026-11-06T19:23:34.850Z"
+}
